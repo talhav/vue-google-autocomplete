@@ -344,6 +344,7 @@
 
                 returnData['latitude'] = place.geometry.location.lat();
                 returnData['longitude'] = place.geometry.location.lng();
+                returnData['formatted_address'] = place.formatted_address;
                 return returnData
             },
 
